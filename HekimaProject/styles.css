@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #973d09;
+    color: white;
+    padding: 1em 0;
+}
+
+h1, h2, h3 {
+    margin: 0.5em 0;
+}
+
+button {
+    margin: 0.5em;
+    padding: 0.5em 1em;
+    background-color: #e61515;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #b81f1f;
+}
+
+.hidden {
+    display: none;
+}
+
+.categories-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 1em 0;
+}
+
+.category {
+    flex: 1;
+    margin: 0.5em;
+    padding: 1em;
+    background-color: #ff7220;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+.category:hover {
+    background-color: #ff5e00;
+}
+
+footer {
+    margin-top: 2em;
+    padding: 1em 0;
+    background-color: #f9f9f9;
+    font-size: 1.5em;
+    color: #b61b00;
+}
+
+#vocabulary-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#vocabulary-list li {
+    margin: 0.5em 0;
+}
+.more-info-link {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #007bff; /* Blue color for the link */
+    font-weight: bold;
+} 
+
+.more-info-link:hover {
+    text-decoration: underline;
+    color: #0056b3; /* Darker blue on hover */
+}
+
+.hidden {
+    display: none;
+}
+
+
+
+

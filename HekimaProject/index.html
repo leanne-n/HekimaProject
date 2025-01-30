@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HEKIMA</title>
+    <link rel="icon" href="assets/hloginbackground.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Hekima - Learn Kenyan Languages</h1>
+        <p>Immerse yourself in the rich culture of Kenya by learning Kikuyu, Kamba, Luo, and more languages!</p>
+    </header>
+
+    <main>
+        <section id="language-selection">
+            <h2>Which language do you want to immerse yourself in today?</h2>
+            <button onclick="loadLanguage('Kikuyu')">Kikuyu</button>
+            <button onclick="loadLanguage('Kamba')">Kamba</button>
+            <button onclick="loadLanguage('Luo')">Luo</button>
+            <button onclick="loadLanguage('Maa')">Maa</button>
+            <button onclick="loadLanguage('Luyha')">Luyha</button>
+            <button onclick="loadLanguage('Kalenjin')">Kalenjin</button>
+            <button onclick="loadLanguage('Kisii')">Kisii</button> 
+            <button onclick="loadLanguage('Embu')">Embu</button>
+        </section>
+
+        <div id="language-info">
+            <h2 id="language-title"></h2>
+            <p id="fun-fact"></p>
+            <a id="more-info-link" href="#" target="_blank" class="hidden"></a>
+        </div>
+        
+
+            <div>
+                <h2>Which category do you want to explore?</h2>
+            </div>              
+
+            <!-- Categories Row 1 -->
+            <div class="categories-row">
+                <div class="category" data-category="Polite Vocabulary">Polite Vocabulary</div>
+                <div class="category" data-category="Greetings & Getting to Know You">Greetings & Getting to Know You</div>
+                <div class="category" data-category="Giving Information">Giving Information</div>
+                <div class="category" data-category="Numbers">Numbers</div>
+                <div class="category" data-category="Transportation">Transportation</div>
+            </div>
+
+            <!-- Categories Row 2 -->
+            <div class="categories-row">
+                <div class="category" data-category="Places">Places</div>
+                <div class="category" data-category="Communicating Basic Information">Communicating Basic Information</div>
+                <div class="category" data-category="Making Requests">Making Requests</div>
+                <div class="category" data-category="Expressing Confusion">Expressing Confusion</div>
+                <div class="category" data-category="Emergencies">Emergencies</div>
+            </div>
+
+            <!-- Vocabulary Section -->
+            <h3 id="phrases-display">Basic Words and Phrases</h3>
+            <ul id="vocabulary-list"></ul>
+              
+        </section>
+    </main>
+    
+    <footer>
+        <p>Rediscover your roots, revive your heritage.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
